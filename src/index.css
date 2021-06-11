@@ -1,0 +1,142 @@
+@import url('https://fonts.googleapis.com/css2?family=Heebo:wght@300&display=swap');
+:root {
+  --root_color: #f1356d;
+}
+
+* {
+  margin: 0;
+  font-family: 'Heebo', sans-serif;
+  color: #333;
+  font-weight: 600;
+}
+
+.navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 600px;
+  margin: 0 auto;
+  border-bottom: 1px solid white;
+}
+
+.navbar h1 {
+  color: var(--root_color);
+}
+
+.navbar .links {
+  margin-left: auto;
+}
+
+.navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+}
+
+.navbar a:hover {
+  color: var(--root_color);
+}
+
+.content {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* blog */
+
+.blog-preview {
+  padding: 10px 16px;
+  margin: 20px 0;
+  border-bottom: 1px solid white;
+}
+
+.blog-preview:hover {
+  box-shadow: 5px 10px 8px rgba(0, 0, 0, 0.1);
+  cursor: pointer;
+}
+
+.blog-preview h2 {
+  font-size: 20px;
+  color: var(--root_color);
+  margin-bottom: 8px;
+}
+
+.blog-preview a {
+  text-decoration: none;
+}
+
+/* blog details page */
+
+.blog-details h2 {
+  font-size: 30px;
+  color: var(--root_color);
+  margin-bottom: 10px;
+}
+
+.blog-details div {
+  margin: 20px 0;
+}
+
+.blog-details button {
+  background: var(--root_color);
+  color: white;
+  border: 0;
+  padding: 8px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.create{
+  max-width: 400px;
+  margin:0 auto;
+  text-align:center;
+}
+
+.create label{
+  text-align:left;
+  display:block;
+}
+
+.create h2{
+  font-size:30px;
+  color:var(--root_color);
+  margin-bottom:30px;
+}
+
+.create input, .create textarea, .create select{
+  width:100%;
+  padding:6px 10px;
+  margin:10px 0;
+  border:1px solid #ddd;
+  box-sizing:border-box;
+  display:block;
+}
+
+.create button{
+  background: var(--root_color);
+  color:white;
+  border:0;
+  padding: 10px 13px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+/* 404 page */
+
+.error h1{
+  color:var(--root_color);
+  font-size:40px;
+  padding:40px 0;
+}
+
+.error p{
+  padding-bottom:40px;
+  font-size:20px;
+
+}
+
+.error a{
+  text-decoration:none;
+  color:#f1356d;
+}
